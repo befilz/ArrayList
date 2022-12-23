@@ -1,0 +1,17 @@
+﻿<Window x:Class="ArrayListApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ArrayListApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtBox" HorizontalAlignment="Center" Height="41" Margin="0,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="550"/>
+        <Button x:Name="bttnAdd" Content="Add" HorizontalAlignment="Left" Height="45" Margin="125,0,0,0" VerticalAlignment="Center" Width="140" FontSize="14" FontWeight="Bold" Click="bttnAdd_Click" RenderTransformOrigin="0.478,-0.085"/>
+        <Button x:Name="bttnRemove" Content="Remove" HorizontalAlignment="Center" Height="45" VerticalAlignment="Center" Width="140" FontSize="14" FontWeight="Bold" Click="bttnRemove_Click"/>
+        <Button x:Name="bttnShow" Content="Show All" HorizontalAlignment="Left" Height="45" Margin="535,0,0,0" VerticalAlignment="Center" Width="140" FontSize="14" FontWeight="Bold" Click="bttnShow_Click"/>
+        <Button x:Name="bttnClear" Content="Clear" HorizontalAlignment="Center" Height="26" Margin="0,325,0,0" VerticalAlignment="Top" Width="96" FontSize="14" FontWeight="Bold" Click="bttnClear_Click"/>
+
+    </Grid>
+</Window>
